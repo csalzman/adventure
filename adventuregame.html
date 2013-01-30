@@ -1,0 +1,70 @@
+<html>
+<head>
+	<style>
+		html {
+			overflow:hidden;
+		}
+
+		#sprite {
+			position:absolute;
+			left:420;
+			top:250;
+			z-index:11;
+		}
+
+		#loggingOutput {
+			position:fixed;
+			/*height:100px;
+			width:150px;*/
+			top:20px;
+			left:800px;
+			background-color:white;
+			border:1px black solid;
+			z-index:15;
+		}	
+
+		#canvas {
+			position:relative;
+			left:50;
+			top:50;
+			height:500;
+			width:500;
+		}
+		.hotspot {
+			background-color:blue;
+		}
+
+		#walls {
+			position:absolute;
+			top:10px;
+			left:10px;
+		}
+		
+		#walls {
+			
+		}
+
+
+	</style>
+<script type="text/javascript" src="adventuregame.js"></script>
+</head>
+<body>
+	<div id="loggingOutput">
+		up, down, left, right to move. "z" to interact with switches
+	</div>
+	
+	<div id="container">
+		<svg id="sprite" xmlns="http://www.w3.org/2000/svg" version="1.1" style="width:10;height:10;">
+  			<rect width="10" height="10" style="fill:rgb(0,0,255)"/>
+		</svg>
+	</div>
+
+	<div id="walls">
+		
+	</div>
+
+	<div id="viewport">
+	</div>
+	
+</body>
+</html>
