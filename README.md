@@ -2,6 +2,8 @@
 
 *The latest in 1979 technology. Now in javascript!*
 
+Want to "play" it? [Check it out over here](http://beep-bop-robot.com/game/adventuregame.html)
+
 Currently just one level, but what a level it is! Featuring:
 
 - *Movement!* Direction arrows will move your brave adventurer every which way!
